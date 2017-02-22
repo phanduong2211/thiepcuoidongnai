@@ -1,0 +1,6 @@
+.cate_pagination{padding:10px 5px;width:100%}
+div.pagination{margin:3px;padding:7px;text-align:right}
+div.pagination a{border:1px solid #e13a86;color:#e13a86;font-weight:700;margin:2px;padding:2px 5px;text-decoration:none}
+div.pagination a:hover,div.pagination a:active{background-color:#e13a86;border:1px solid #e13a86;color:#FFF}
+div.pagination span.current{background-color:#e13a86;border:1px solid #e13a86;color:#FFF;font-weight:700;margin:2px;padding:2px 5px}
+div.pagination span.disabled{border:1px solid #e13a86;color:#e13a86;margin:2px;padding:2px 5px}

@@ -1,0 +1,19 @@
+.red
+{
+    color:Red;
+}
+.error,.error:focus{
+    border-color:#A74141 !important;
+    background-image: url('../images/warning.png') !important;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.error.noterroricon,.error.noterroricon:focus{
+	background-image:none !important;
+}
+.errortext{
+	display: block;
+	margin: 2px 0px;
+	color:#A74141 !important;
+	font-size: 12px;	
+}

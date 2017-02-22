@@ -1,0 +1,184 @@
+.dimb{
+	position: fixed;
+	background-color: black;
+	z-index: 2000;
+	display: none;
+	width: 100%;
+	height: 100%;
+	left:0px;
+	top: 0px;
+	opacity: 0.5;
+}
+.dialog{
+	position: fixed;
+	background-color: white;
+	display: none;
+	box-shadow: 0px 0px 3px #999;
+	-moz-box-shadow: 0px 0px 3px #999;
+	-webkit-box-shadow: 0px 0px 3px #999;
+}
+.dialog .ct{
+	padding: 10px 20px;
+	overflow: auto;
+}
+.dialog .header{
+	background-color: #f5f6f7;
+    border-bottom: 1px solid #e5e5e5;
+    color: #4e5665;
+    font-weight: bold;
+    line-height: 19px;
+    padding: 10px 12px;
+    font-size:13px;
+    position:static;
+    min-height:inherit;
+}
+.dialog .header .closedialog{
+	float:right;
+	margin-top:5px;
+	color:#999;
+}
+.dialog .header .closedialog:hover{
+	color:#333;
+	cursor:pointer;
+}
+.dialog hr{
+	border-top:1px solid #ccc;
+}
+#dialog,#dialog2,#dialog3,#dialog4,#dialogxoaimg,#dialog1,#dialogupload,#dialogshowimg,#dialognewfolder,#dialogxoafolder{
+	display: none;
+}
+	#dialogupload .tabupload .tabitem li{
+    list-style: none;
+    float:left;
+    padding:5px 10px;
+    background-color: #eee;
+    margin: 2px 0px 0px 5px;
+    position: relative;
+    border-top:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    bottom:-1px;
+}
+#dialogupload{
+    -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#dialogupload .tabupload .tabitem li:hover{
+    background: #ccc;
+    cursor: pointer;
+}
+#dialogupload .tabupload .tabitem{
+    border-bottom:1px solid #ccc;
+    position: relative;
+    padding-right: 2px;
+}
+#dialogupload .tabupload .tabitem li.active{
+    background-color: white;
+    
+}
+#dialogupload .tabupload .tabitem li.active:hover{
+   background: white;
+}
+#dialogupload #tabuploadimg{
+    display: none;
+}
+#dialogupload .tabfolder li{
+    cursor: pointer;
+    padding: 5px 0px;
+}
+#dialogupload .tabfolder li:hover,#dialogupload .tabfolder li.active,#dialogupload .tabfolder li.activeroot{
+    color:#D20101;
+}
+#dialogupload .tabupload{
+      position: relative;
+}
+#dialogupload #tabfolder li{
+    display: none;
+}
+#dialogupload #folderitems div.folderitem{
+    display: none;
+}
+#dialogupload #folderitems div.folderitem.active{
+    display: block;
+}
+#groupbutton{
+    position: absolute;
+    top: 11px;
+    right: 15px;
+    z-index: 10;
+}
+#groupbutton div{
+    float: left;
+    margin: 0px 7px;
+}
+#refreshupload:hover,#removeupload:hover,#downloadimg:hover,#chooseImg:hover,#zoomimage:hover,#newfolderupload:hover{
+    cursor: pointer;
+    color:blue;
+}
+#dialogupload #folderitems .folderitem .item{
+    height: 155px;
+
+}
+#dialogupload #folderitems .folderitem .item .contentitem{
+    
+    box-shadow: 0px 0px 3px #999;
+    -moz-box-shadow: 0px 0px 3px #999;
+    -webkit-box-shadow: 0px 0px 3px #999;
+    
+}
+#dialogupload #folderitems .folderitem .item .namefile{
+    text-align: center;
+    max-height: 40px;
+    width: 96%;
+    overflow: hidden;
+    position: absolute;
+    top: 105px;
+    padding-left: 2%;
+}
+#dialogupload #folderitems .folderitem .item .hoveritem{
+    overflow: hidden;
+   border:1px solid white;
+    position: relative;
+    width: 120%;
+    height: 95%;
+    margin: 5px 0px;
+}
+#dialogupload #folderitems .folderitem .item .hoveritem:hover,#dialogupload #folderitems .folderitem .item.activeitem .hoveritem{
+    border:1px solid #C1C1FF;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-color: rgba(237, 245, 253,0.6);
+    cursor: pointer;
+
+}
+#dialogupload #folderitems .folderitem .item .ctitem{
+    position: absolute;
+    bottom:35px;
+    padding:5px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    overflow: hidden;
+}
+#dialogshowimg .ct{
+    text-align: center;
+    vertical-align: middle;
+}
+#dialogshowimg p{
+    text-align: center;
+}
+#backfolderupload{
+    position: absolute;
+    left: 404px;
+    top: 6px;
+    font-size: 15px;
+    z-index: 999999;
+    display: none;
+}
+#backfolderupload i:hover{
+    cursor: pointer;
+    color:red;
+}
